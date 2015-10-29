@@ -5,7 +5,7 @@
 
 
     <bean id="simpleBean" class="com.example.SimpleBean">
-        <property name="value" value="#{environment['my.simple.value']}" />
+        <property name="value" value="${my.simple.value}" />
     </bean>
 
 </beans>
